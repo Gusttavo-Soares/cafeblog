@@ -41,7 +41,7 @@ main{
 } */
 
 /*=====================responsividade 400px===================*/
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     main{
         width: 100%;
     }
