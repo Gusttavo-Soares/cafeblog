@@ -39,3 +39,18 @@ main{
     background-position: center bottom;
     border-radius: 1.5rem;
 } */
+
+/*=====================responsividade 400px===================*/
+@media (max-width: 400px) {
+    main{
+        width: 100%;
+    }
+    .conteudo{
+        margin: 2rem 3rem;
+    }
+    .conteudo img{
+        border-radius: 1.5rem;
+        width: 90%;
+        height: 50%;
+    }
+}
