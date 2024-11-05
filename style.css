@@ -1,6 +1,6 @@
-@import url(./header.css);
-@import url(./conteudo.css);
-@import url(./footer.css);
+@import url(./css/header.css);
+@import url(./css/conteudo.css);
+@import url(./css/footer.css);
 
 :root{
     --escuro: #000000;
