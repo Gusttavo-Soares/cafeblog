@@ -31,7 +31,7 @@ nav > a {
     color: var(--marrom-avermelhado);
     font-size: 1.6rem;
 }
-/*=====================responsividade 430px===================*/
+/*=====================responsividade 450px===================*/
 @media (max-width: 450px) {
     header{
         width: 100%;
@@ -44,5 +44,31 @@ nav > a {
     }
     nav > a{
         font-size: 1.4rem;
+    }
+}
+/*=====================responsividade 1440px===================*/
+@media (max-width: 1440px) {
+    header{
+        width: 100%;
+    }   
+    
+    header h1{
+        font-size: 3rem;
+    }
+    nav > a{
+        font-size: 3rem;
+    }
+}
+/*=====================responsividade 1024px===================*/
+@media (max-width: 1024px) {
+    header{
+        width: 100%;
+    }   
+    
+    header h1{
+        font-size: 2rem;
+    }
+    nav > a{
+        font-size: 2rem;
     }
 }

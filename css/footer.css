@@ -3,8 +3,20 @@
     height: 8rem;
     background-color:var(--escuro);
 }
-/*=====================responsividade 400px===================*/
+/*=====================responsividade 450px===================*/
 @media (max-width: 450px) {
+    .footer{
+        width: 100%;
+    }   
+}
+/*=====================responsividade 1440px===================*/
+@media (max-width: 1440px) {
+    .footer{
+        width: 100%;
+    }   
+}
+/*=====================responsividade 1024px===================*/
+@media (max-width: 1024px) {
     .footer{
         width: 100%;
     }   
