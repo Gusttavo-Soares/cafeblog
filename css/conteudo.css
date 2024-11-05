@@ -41,7 +41,7 @@ main{
 } */
 
 /*=====================responsividade 400px===================*/
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     main{
         width: 100%;
     }
@@ -52,5 +52,20 @@ main{
         border-radius: 1.5rem;
         width: 90%;
         height: 50%;
+    }
+}
+/*=====================responsividade 1440px===================*/
+@media (max-width: 1440px) {
+    main{
+        width: 100%;
+    }   
+    .conteudo img{
+        border-radius: 1.5rem;
+    }
+    .conteudo h2{
+        font-size: 3rem;
+    }
+    .conteudo p {
+        font-size: 2.5rem;
     }
 }
